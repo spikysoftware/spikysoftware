@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Game development tools placeholder</title>
+  <desc id="desc">A stylized editor interface with code panels, scene objects, and performance graphs.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#18243a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="0" fill="#07111f"/>
+  <rect x="72" y="62" width="1136" height="596" rx="28" fill="url(#screen)" stroke="#30445e" stroke-width="4"/>
+  <rect x="100" y="102" width="255" height="516" rx="14" fill="#0b1220"/>
+  <rect x="385" y="102" width="470" height="338" rx="14" fill="#0b1220"/>
+  <rect x="885" y="102" width="295" height="516" rx="14" fill="#0b1220"/>
+  <rect x="385" y="468" width="470" height="150" rx="14" fill="#0b1220"/>
+  <g fill="none" stroke-linecap="round" stroke-width="10">
+    <path d="M132 152h142M132 200h190M132 248h124M132 296h168" stroke="#4df0ff"/>
+    <path d="M132 380h178M132 428h132M132 476h198M132 524h96" stroke="#ff3d8b"/>
+  </g>
+  <g transform="translate(500 178)">
+    <path d="M140 0 280 80v160l-140 80L0 240V80Z" fill="#1b2d4a" stroke="#4df0ff" stroke-width="6"/>
+    <path d="M140 42 242 101v118l-102 59-102-59V101Z" fill="#273d63"/>
+    <circle cx="140" cy="160" r="54" fill="#ffe45c"/>
+  </g>
+  <g fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M923 520c34-76 70-76 108 0s75 76 112 0" stroke="#b7ff5c"/>
+    <path d="M923 430h205M923 382h170M923 334h228M923 286h126" stroke="#6f88a8"/>
+  </g>
+  <g fill="#4df0ff">
+    <rect x="425" y="515" width="62" height="62" rx="12"/>
+    <rect x="516" y="515" width="62" height="62" rx="12" opacity=".8"/>
+    <rect x="607" y="515" width="62" height="62" rx="12" opacity=".6"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Nebuli VR gameplay placeholder</title>
+  <desc id="desc">A stylized VR shooter scene with enemies, laser fire, and a cockpit HUD.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="45%" r="78%">
+      <stop offset="0" stop-color="#203a72"/>
+      <stop offset=".55" stop-color="#101b35"/>
+      <stop offset="1" stop-color="#060912"/>
+    </radialGradient>
+    <linearGradient id="laser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#49f2ff"/>
+      <stop offset="1" stop-color="#ff2d74"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#space)"/>
+  <g fill="#fff">
+    <circle cx="93" cy="92" r="2" opacity=".8"/>
+    <circle cx="180" cy="220" r="2" opacity=".4"/>
+    <circle cx="326" cy="126" r="3" opacity=".6"/>
+    <circle cx="611" cy="88" r="2" opacity=".6"/>
+    <circle cx="1040" cy="110" r="2" opacity=".75"/>
+    <circle cx="1182" cy="290" r="3" opacity=".5"/>
+    <circle cx="960" cy="498" r="2" opacity=".5"/>
+    <circle cx="740" cy="612" r="2" opacity=".65"/>
+  </g>
+  <path d="M0 598c190-104 396-147 619-128 228 20 420 76 661 32v218H0Z" fill="#070b15" opacity=".82"/>
+  <g transform="translate(690 178)">
+    <path d="M92 0 184 58v112l-92 56L0 170V58Z" fill="#ff3d8b"/>
+    <path d="M92 26 160 69v89l-68 42-68-42V69Z" fill="#48112d"/>
+    <circle cx="92" cy="112" r="42" fill="#ffc857"/>
+    <circle cx="92" cy="112" r="18" fill="#07111f"/>
+  </g>
+  <g transform="translate(170 245)">
+    <path d="M70 0 140 44v84l-70 42L0 128V44Z" fill="#49f2ff"/>
+    <path d="M70 28 116 57v58l-46 27-46-27V57Z" fill="#07111f"/>
+  </g>
+  <g transform="translate(1000 335)">
+    <path d="M55 0 110 34v70l-55 34L0 104V34Z" fill="#b7ff5c"/>
+    <circle cx="55" cy="69" r="22" fill="#07111f"/>
+  </g>
+  <path d="M502 533 818 298" stroke="url(#laser)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M544 555 1032 414" stroke="#ffe45c" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#4df0ff" stroke-width="6" opacity=".8">
+    <path d="M458 544h364"/>
+    <path d="M642 460v184"/>
+    <circle cx="642" cy="552" r="94"/>
+  </g>
+</svg>

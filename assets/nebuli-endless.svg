@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Nebuli Endless gameplay placeholder</title>
+  <desc id="desc">A stylized endless arcade shooter scene with lanes, pickups, and incoming enemies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111729"/>
+      <stop offset=".55" stop-color="#222c55"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34476f"/>
+      <stop offset="1" stop-color="#0d1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <path d="M420 720 565 210h150l145 510Z" fill="url(#road)"/>
+  <path d="M640 228v492" stroke="#4df0ff" stroke-width="6" stroke-dasharray="38 34" opacity=".75"/>
+  <path d="M0 610c148-62 282-78 432-43 158 37 286 42 421-6 153-54 295-45 427 30v129H0Z" fill="#070b15" opacity=".78"/>
+  <g transform="translate(568 510)">
+    <path d="M72 0 144 102H0Z" fill="#4df0ff"/>
+    <rect x="48" y="88" width="48" height="72" rx="16" fill="#f8fbff"/>
+    <path d="M38 118h68" stroke="#ff3d8b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g fill="#ff3d8b">
+    <path d="M316 280 366 310v60l-50 30-50-30v-60Z"/>
+    <path d="M910 248 970 284v72l-60 36-60-36v-72Z"/>
+    <path d="M704 160 748 187v52l-44 27-44-27v-52Z"/>
+  </g>
+  <g fill="#ffe45c">
+    <circle cx="492" cy="388" r="24"/>
+    <circle cx="788" cy="440" r="24"/>
+    <circle cx="620" cy="318" r="18"/>
+  </g>
+  <path d="M590 512 348 366M690 512 908 344" stroke="#b7ff5c" stroke-width="9" stroke-linecap="round"/>
+</svg>
