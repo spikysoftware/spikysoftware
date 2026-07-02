@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/home/contact-us/privacy-policy",
+      "destination": "/home/contact-us/privacy-policy/index.html"
+    },
+    {
+      "source": "/home/contact-us/privacy-policy/",
+      "destination": "/home/contact-us/privacy-policy/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/home/contact-us/privacy-policy",
+      "permanent": true
+    }
+  ]
+}
